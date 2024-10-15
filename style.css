@@ -1,0 +1,137 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.logo h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    margin-left: 30px;
+    color: rgb(205, 144, 101);
+    cursor: pointer;
+}
+
+.f{
+    color: burlywood;
+}
+
+.l{
+    color: burlywood;
+}
+
+.nav li a{
+    text-decoration-line:none ;
+    margin-right: 35px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    color: burlywood;
+    font-size: 15px;
+}
+
+.nav ul li{
+    list-style: none;
+}
+.nav ul{
+    display: flex;
+    margin: 30px;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    /* background-color: antiquewhite; */
+}
+
+.fotoatas{
+    display: flex;
+    justify-content: center;
+}
+
+.pembatas{
+    background-color: burlywood;
+    height: 40px;
+    width: 100%;
+    margin-top: 200px;
+}
+.deskripsi{
+    margin-top: 100px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.garis{
+    width: 90px;
+    height: 6px;
+    background-color: antiquewhite;
+    box-shadow: 0 0 5px;
+    margin: auto;
+    border-radius: 3px;
+    display: flex;
+    
+
+}
+
+.fadil{
+    background-color: burlywood;
+    width: 18%;
+    margin: auto;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.fadil ul{
+    list-style: none;
+}
+.fadil li a{
+    text-decoration: none;
+    color: white;
+}
+.fadil a{
+    padding-right: 30px;
+    box-sizing: border-box;
+}
+
+.sekolah{
+    margin: 300px 0 0 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+
+}
+
+.ihbs p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.ihbs img{
+    width: 500px;
+    height: 300px;
+    border-radius: 3px;
+    
+}
+
+.abudzar p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.abudzar img{
+    width: 500px;
+    height: 300px;
+    border-radius: 3px;
+}
+
